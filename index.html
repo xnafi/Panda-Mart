@@ -19,9 +19,13 @@
     <!-- header section starts -->
     <header>
       <!-- navbar start -->
-      <nav class="container-fluid navbar navbar-expand-lg navbar-light bg-light">
+      <nav
+        class="container-fluid navbar navbar-expand-lg navbar-light bg-light"
+      >
         <div class="container">
-          <a class="navbar-brand" href="#"><img src="images/logo.png" alt=""></a>
+          <a class="navbar-brand" href="#"
+            ><img src="images/logo.png" alt=""
+          /></a>
           <button
             class="navbar-toggler"
             type="button"
@@ -36,7 +40,9 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav me-auto mb-2 mb-lg-0">
               <li class="nav-item">
-                <a class="nav-link fw-bolder" aria-current="page" href="#">Home</a>
+                <a class="nav-link fw-bolder" aria-current="page" href="#"
+                  >Home</a
+                >
               </li>
               <li class="nav-item">
                 <a class="nav-link fw-bolder" href="#">Bagpack</a>
@@ -53,7 +59,103 @@
       </nav>
 
       <!-- header bannar/carousal starts -->
-      
+      <div
+        id="carouselExampleControls"
+        class="carousel slide container"
+        data-bs-ride="carousel"
+      >
+        <div class="carousel-inner">
+          <!-- carousal item 1 -->
+          <div class="carousel-item active">
+            <div
+              class="row d-flex justify-content-center align-items-center bg-info p-5"
+            >
+              <div class="col-lg-7">
+                <h2 class="fw-bolder">X-Box for your living room</h2>
+                <p>
+                  This is the best x-box in the world for people who just want
+                  to waste time in front of fake sports.
+                </p>
+                <h1>$2000</h1>
+                <button class="btn btn-dark">Buy Now</button>
+              </div>
+              <div class="col-lg-5">
+                <img
+                  src="images/banner-images/xbox.png"
+                  class="img-fluid"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+          <!-- carousal item 2 -->
+          <div class="carousel-item">
+            <div
+              class="row d-flex justify-content-center align-items-center bg-info p-5 gy-2"
+            >
+              <div class="col-lg-7">
+                <h2 class="fw-bolder">TV for your living room</h2>
+                <p>
+                  This is the best x-box in the world for people who just want
+                  to waste time in front of fake sports.
+                </p>
+                <h1>$1200</h1>
+                <button class="btn btn-dark">Buy Now</button>
+              </div>
+              <div class="col-lg-5">
+                <img
+                  src="images/banner-images/tv.png"
+                  class="img-fluid"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+
+          <!-- carousal item 3 -->
+          <div class="carousel-item">
+            <div
+              class="row d-flex justify-content-center align-items-center bg-info p-5"
+            >
+              <div class="col-lg-7">
+                <h2 class="fw-bolder">Cool Dude Headphone</h2>
+                <p>
+                  This is the best x-box in the world for people who just want
+                  to waste time in front of fake sports.
+                </p>
+                <h1>$600</h1>
+                <button class="btn btn-dark">Buy Now</button>
+              </div>
+              <div class="col-lg-5">
+                <img
+                  src="images/banner-images/headphone.png"
+                  class="img-fluid"
+                  alt="..."
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleControls"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
       <!-- header bannar/carousal end -->
       <!-- navbar end -->
     </header>
